@@ -174,3 +174,48 @@ footer.footer_v2 {
 }
 
 .cus-banner-v11-2 .banner-item .content h3.sub-title {font-size: 18px;line-height: 20px;font-weight: 300;margin-top: 20px;}
+
+
+.cus-banner-v11-2 .banner-item.last h3.sub-title {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    background-color: #B13495;
+    border-radius: 50%;
+    color: #fff !important;
+    line-height: initial;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 30px;
+}
+
+.cus-banner-v11-2 .banner-item.last .content a {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #B13495;
+    font-weight: 300;
+    position: relative;
+    margin-top: 30px;
+}
+
+.cus-banner-v11-2 .banner-item.last .content a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px dotted #b13495;
+    left: 8px;
+    top: 8px;
+    transition: .5s all;
+}
+
+.cus-banner-v11-2 .banner-item.last .content a i {
+    font-weight: 600;
+    margin-left: 9px;
+}
+
+.cus-banner-v11-2 .banner-item.last .content a:hover::after {
+    top: 0;
+    left: 0;
+}
