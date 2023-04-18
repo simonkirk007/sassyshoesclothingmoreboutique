@@ -3779,7 +3779,7 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "select_fts": "footer_v1",
+          "select_fts": "footer_v2",
           "ft_home_bg_footer": "#ffffff",
           "ft_home_color_text": "#111111",
           "select_fts_all": "footer_ver2",
