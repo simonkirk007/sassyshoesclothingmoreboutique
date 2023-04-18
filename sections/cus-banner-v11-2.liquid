@@ -19,6 +19,12 @@
         <div class="col-lg-4 col-md-4 col-12 col-sm-12">
           <div class="banner-ver">
             <div class="banner-item">
+              <div class="content">
+                {% if section.settings.title_banner2 != blank %}
+                <h3 class="title-banner" style="color: {{section.settings.color_title_banner}}">{{section.settings.title_banner2}}</h3>
+                {% endif %}
+                
+              </div>
               <a href="{{section.settings.url_button_banner2}}" class="box-img d-block">
                 {% if section.settings.banner_img2 != blank %}
                 <img data-src="{{section.settings.banner_img2 | img_url: 'master'}}" class="lazyload img-fluid w-100" alt="_img">
@@ -30,12 +36,7 @@
                 {% if section.settings.sub_title2 != blank %}
                 <h3 class="sub-title" style="color: {{section.settings.color_subtitle}}">{{section.settings.sub_title2}}</h3>
                 {% endif %}
-                {% if section.settings.title_banner2 != blank %}
-                <h3 class="title-banner" style="color: {{section.settings.color_title_banner}}">{{section.settings.title_banner2}}</h3>
-                {% endif %}
-                {% if section.settings.button_banner2 != blank %}
-                <a href="{{section.settings.url_button_banner2}}" class="btn-{{ section.id }}">{{section.settings.button_banner2}}<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                {% endif %}
+              
               </div>
             </div>
           </div>
