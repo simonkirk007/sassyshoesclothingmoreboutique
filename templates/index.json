@@ -504,7 +504,6 @@
     },
     "1d22c875-3a7e-432d-8986-803ea504009b": {
       "type": "reviews",
-      "disabled": true,
       "blocks": {
         "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-0": {
           "type": "review",
