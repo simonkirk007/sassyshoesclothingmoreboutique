@@ -475,6 +475,141 @@
         "bg_btn_hover3": "#7cb538",
         "url_banner3": "shopify:\/\/collections\/all"
       }
+    },
+    "d83df4c6-023e-4a77-a594-a31a6eb4250e": {
+      "type": "section-instagram-v1",
+      "disabled": true,
+      "settings": {
+        "section_title_item": "Shop it",
+        "ins_userid": "3672948962",
+        "ins_access_token": "3672948962.0f64772.430edb7f711e4665b59777c54d1ed9ce",
+        "ins_limit_number": "7",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "02ff6338-8735-40ed-840f-7046360fc12c": {
+      "type": "section-instagram-v2",
+      "disabled": true,
+      "settings": {
+        "img_icon": "shopify:\/\/shop_images\/3e1989bf21e4a616630e9cf674f50a55_1.png",
+        "section_title_big": "Instagram Shop",
+        "item_icon": "fa fa-instagram",
+        "ins_userid": "3672948962",
+        "ins_access_token": "3672948962.0f64772.430edb7f711e4665b59777c54d1ed9ce",
+        "ins_limit_number": "10",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "1d22c875-3a7e-432d-8986-803ea504009b": {
+      "type": "reviews",
+      "disabled": true,
+      "blocks": {
+        "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-0": {
+          "type": "review",
+          "settings": {
+            "title": "Testimonial name",
+            "job": "Ann Smith",
+            "stars": 5,
+            "text": "<p>Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...<\/p>"
+          }
+        },
+        "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-1": {
+          "type": "review",
+          "settings": {
+            "title": "Testimonial name",
+            "job": "Ann Smith",
+            "stars": 5,
+            "text": "<p>Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...<\/p>"
+          }
+        },
+        "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-2": {
+          "type": "review",
+          "settings": {
+            "title": "Testimonial name",
+            "job": "Ann Smith",
+            "stars": 5,
+            "text": "<p>Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...<\/p>"
+          }
+        },
+        "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-3": {
+          "type": "review",
+          "settings": {
+            "title": "Testimonial name",
+            "job": "Ann Smith",
+            "stars": 5,
+            "text": "<p>Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...<\/p>"
+          }
+        },
+        "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-4": {
+          "type": "review",
+          "settings": {
+            "title": "Testimonial name",
+            "job": "Ann Smith",
+            "stars": 5,
+            "text": "<p>Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-0",
+        "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-1",
+        "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-2",
+        "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-3",
+        "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-4"
+      ],
+      "settings": {
+        "title": "Testimonials"
+      }
+    },
+    "c2a83b2f-6119-4e8b-824d-aac53aeacfee": {
+      "type": "section-testimonial-v1",
+      "blocks": {
+        "template--18796696600880__c2a83b2f-6119-4e8b-824d-aac53aeacfee-16818527604d44f03b-0": {
+          "type": "testimonial",
+          "settings": {
+            "block_name": "DESTINEE",
+            "block_des": "Marketing Personal",
+            "block_content": "Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more!"
+          }
+        },
+        "template--18796696600880__c2a83b2f-6119-4e8b-824d-aac53aeacfee-16818527604d44f03b-1": {
+          "type": "testimonial",
+          "settings": {
+            "block_name": "DESTINEE",
+            "block_des": "Marketing Personal",
+            "block_content": "Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more!"
+          }
+        },
+        "template--18796696600880__c2a83b2f-6119-4e8b-824d-aac53aeacfee-16818527604d44f03b-2": {
+          "type": "testimonial",
+          "settings": {
+            "block_name": "DESTINEE",
+            "block_des": "Marketing Personal",
+            "block_content": "Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more!"
+          }
+        },
+        "template--18796696600880__c2a83b2f-6119-4e8b-824d-aac53aeacfee-16818527604d44f03b-3": {
+          "type": "testimonial",
+          "settings": {
+            "block_name": "DESTINEE",
+            "block_des": "Marketing Personal",
+            "block_content": "Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more!"
+          }
+        }
+      },
+      "block_order": [
+        "template--18796696600880__c2a83b2f-6119-4e8b-824d-aac53aeacfee-16818527604d44f03b-0",
+        "template--18796696600880__c2a83b2f-6119-4e8b-824d-aac53aeacfee-16818527604d44f03b-1",
+        "template--18796696600880__c2a83b2f-6119-4e8b-824d-aac53aeacfee-16818527604d44f03b-2",
+        "template--18796696600880__c2a83b2f-6119-4e8b-824d-aac53aeacfee-16818527604d44f03b-3"
+      ],
+      "settings": {
+        "section_title": "Testimonials",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
     }
   },
   "order": [
@@ -497,6 +632,10 @@
     "588ce0fa-e9a4-4882-ba1a-52efbe382d5d",
     "5798b115-e67c-4ede-bb6f-9d027f26d509",
     "20d660f0-87b8-42cb-87e9-69fcb906f54f",
-    "621c6f68-4ed6-4224-81f7-3f720ae87061"
+    "621c6f68-4ed6-4224-81f7-3f720ae87061",
+    "d83df4c6-023e-4a77-a594-a31a6eb4250e",
+    "02ff6338-8735-40ed-840f-7046360fc12c",
+    "1d22c875-3a7e-432d-8986-803ea504009b",
+    "c2a83b2f-6119-4e8b-824d-aac53aeacfee"
   ]
 }
