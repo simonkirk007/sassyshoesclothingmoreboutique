@@ -156,7 +156,7 @@
         "button_banner3": "View More",
         "url_button_banner3": "shopify:\/\/collections\/all",
         "color_subtitle": "#000",
-        "color_title_banner": "#fff",
+        "color_title_banner": "#111111",
         "color_url": "#fff",
         "color_url_hover": "#f2f2f2"
       }
