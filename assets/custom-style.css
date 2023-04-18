@@ -14,3 +14,26 @@
     padding: 10px 29px;
     margin-bottom: 30px !important;
   }
+
+
+  
+.section-slideshow-v1 .info-sideh1 .button-main2 {
+    background-color: #b13495;
+    color: #fff !important;
+    text-transform: uppercase;
+    position: relative;
+  }
+  .section-slideshow-v1 .info-sideh1 .button-main2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px dotted #b13495;
+    left: 8px;
+    top: 8px;
+    transition: 0.5s all;
+  }
+  .section-slideshow-v1 .info-sideh1 .button-main2:hover::after {
+    left: 0;
+    top: 0;
+  }
