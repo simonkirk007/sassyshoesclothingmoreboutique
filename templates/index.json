@@ -609,6 +609,68 @@
         "margin_top": "",
         "margin_bottom": ""
       }
+    },
+    "e26a332e-1637-4aa8-b39a-908520a2ea8b": {
+      "type": "section-testimonial-v2",
+      "disabled": true,
+      "blocks": {
+        "template--18796696600880__e26a332e-1637-4aa8-b39a-908520a2ea8b-1681852820264de11c-0": {
+          "type": "testimonial",
+          "settings": {
+            "block_content": "Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more!",
+            "color_content": "#fff",
+            "block_name": "DESTINEE",
+            "color_name": "",
+            "block_des": "Marketing Personal",
+            "color_des": ""
+          }
+        },
+        "template--18796696600880__e26a332e-1637-4aa8-b39a-908520a2ea8b-1681852820264de11c-1": {
+          "type": "testimonial",
+          "settings": {
+            "block_content": "Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more!",
+            "color_content": "#fff",
+            "block_name": "DESTINEE",
+            "color_name": "",
+            "block_des": "Marketing Personal",
+            "color_des": ""
+          }
+        },
+        "template--18796696600880__e26a332e-1637-4aa8-b39a-908520a2ea8b-1681852820264de11c-2": {
+          "type": "testimonial",
+          "settings": {
+            "block_content": "Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more!",
+            "color_content": "#fff",
+            "block_name": "DESTINEE",
+            "color_name": "",
+            "block_des": "Marketing Personal",
+            "color_des": ""
+          }
+        },
+        "template--18796696600880__e26a332e-1637-4aa8-b39a-908520a2ea8b-1681852820264de11c-3": {
+          "type": "testimonial",
+          "settings": {
+            "block_content": "Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more than I paid Saved our business! We have no regrets! Thanks for the great service. Tilesy is worth much more!",
+            "color_content": "#fff",
+            "block_name": "DESTINEE",
+            "color_name": "",
+            "block_des": "Marketing Personal",
+            "color_des": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18796696600880__e26a332e-1637-4aa8-b39a-908520a2ea8b-1681852820264de11c-0",
+        "template--18796696600880__e26a332e-1637-4aa8-b39a-908520a2ea8b-1681852820264de11c-1",
+        "template--18796696600880__e26a332e-1637-4aa8-b39a-908520a2ea8b-1681852820264de11c-2",
+        "template--18796696600880__e26a332e-1637-4aa8-b39a-908520a2ea8b-1681852820264de11c-3"
+      ],
+      "settings": {
+        "section_title": "Testimonials",
+        "color_title": "",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
     }
   },
   "order": [
@@ -635,6 +697,7 @@
     "d83df4c6-023e-4a77-a594-a31a6eb4250e",
     "02ff6338-8735-40ed-840f-7046360fc12c",
     "1d22c875-3a7e-432d-8986-803ea504009b",
-    "c2a83b2f-6119-4e8b-824d-aac53aeacfee"
+    "c2a83b2f-6119-4e8b-824d-aac53aeacfee",
+    "e26a332e-1637-4aa8-b39a-908520a2ea8b"
   ]
 }
