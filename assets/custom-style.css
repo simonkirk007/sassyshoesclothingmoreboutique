@@ -3,6 +3,9 @@
     height: 600px;
     object-fit: cover;
   }
+  .section-slideshow-v1 .info-sideh1 .picture-slideshow {
+    height: 600px;
+  }
 }
 
 .section-slideshow-v1 .info-sideh1 .box-content-center .box-title1 .title-small {
@@ -21,7 +24,7 @@
 
 
 
-  
+
   
 .section-slideshow-v1 .info-sideh1 .button-main2 {
     background-color: #b13495;
