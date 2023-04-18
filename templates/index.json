@@ -508,41 +508,46 @@
         "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-0": {
           "type": "review",
           "settings": {
-            "title": "Testimonial name",
-            "job": "Ann Smith",
-            "stars": 5,
-            "text": "<p>Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...<\/p>"
+            "image": "shopify:\/\/shop_images\/Rectangle_729.png",
+            "title": "Floyd Miles",
+            "job": "",
+            "stars": 4,
+            "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <\/p>"
           }
         },
         "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-1": {
           "type": "review",
           "settings": {
-            "title": "Testimonial name",
-            "job": "Ann Smith",
+            "image": "shopify:\/\/shop_images\/Rectangle_729_1.png",
+            "title": "Ronald Richards",
+            "job": "",
             "stars": 5,
-            "text": "<p>Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...<\/p>"
+            "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <\/p>"
           }
         },
         "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-2": {
           "type": "review",
           "settings": {
-            "title": "Testimonial name",
-            "job": "Ann Smith",
+            "image": "shopify:\/\/shop_images\/Rectangle_729_2.png",
+            "title": "Savannah Nguyen",
+            "job": "",
             "stars": 5,
-            "text": "<p>Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...<\/p>"
+            "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <\/p>"
           }
         },
         "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-3": {
           "type": "review",
           "settings": {
-            "title": "Testimonial name",
-            "job": "Ann Smith",
+            "image": "shopify:\/\/shop_images\/Rectangle_729_3.png",
+            "title": "Floyd Miles",
+            "job": "",
             "stars": 5,
-            "text": "<p>Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...<\/p>"
+            "text": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <\/p>"
           }
         },
         "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-4": {
           "type": "review",
+          "disabled": true,
           "settings": {
             "title": "Testimonial name",
             "job": "Ann Smith",
@@ -558,12 +563,16 @@
         "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-3",
         "template--18796696600880__1d22c875-3a7e-432d-8986-803ea504009b-1681852743f1a07cd4-4"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "Testimonials"
       }
     },
     "c2a83b2f-6119-4e8b-824d-aac53aeacfee": {
       "type": "section-testimonial-v1",
+      "disabled": true,
       "blocks": {
         "template--18796696600880__c2a83b2f-6119-4e8b-824d-aac53aeacfee-16818527604d44f03b-0": {
           "type": "testimonial",
@@ -612,6 +621,7 @@
     },
     "e26a332e-1637-4aa8-b39a-908520a2ea8b": {
       "type": "section-testimonial-v2",
+      "disabled": true,
       "blocks": {
         "template--18796696600880__e26a332e-1637-4aa8-b39a-908520a2ea8b-1681852820264de11c-0": {
           "type": "testimonial",
