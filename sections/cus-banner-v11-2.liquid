@@ -36,7 +36,10 @@
                 {% if section.settings.sub_title2 != blank %}
                 <h3 class="sub-title" style="color: {{section.settings.color_subtitle}}">{{section.settings.sub_title2}}</h3>
                 {% endif %}
-              
+                
+                {% if section.settings.button_banner2 != blank %}
+                <a href="{{section.settings.url_button_banner2}}" class="btn-{{ section.id }}">{{section.settings.button_banner2}}<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                {% endif %}
               </div>
             </div>
           </div>
