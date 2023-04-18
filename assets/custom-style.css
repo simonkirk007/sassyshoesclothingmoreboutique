@@ -163,3 +163,14 @@ footer.footer_v2 {
     background-size: cover;
     background-position: center;
 }
+.cus-banner-v11-2 .banner-item .content {
+    padding: 0;
+}
+
+.cus-banner-v11-2 .banner-item .content h3.title-banner {
+    font-size: 34px;
+    line-height: 39px;
+    font-weight: 200;
+}
+
+.cus-banner-v11-2 .banner-item .content h3.sub-title {font-size: 18px;line-height: 20px;font-weight: 300;margin-top: 20px;}
