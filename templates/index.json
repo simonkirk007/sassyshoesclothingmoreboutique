@@ -240,6 +240,19 @@
       "settings": {
         "title": "Our Customer Feedback"
       }
+    },
+    "31dce974-3192-405a-a82d-93c7255318fe": {
+      "type": "section-product-v3",
+      "settings": {
+        "title_heading": "Best Seller",
+        "color_title": "#222",
+        "sub_title": "Check Out Our Best Sellers + Latest Products",
+        "color_sub_title": "#666666",
+        "select_collection": "frontpage",
+        "products_limit": 8,
+        "margin_top": "",
+        "margin_bottom": ""
+      }
     }
   },
   "order": [
@@ -248,6 +261,7 @@
     "17297f9e-d37a-4ed1-8f1d-beec7187b08f",
     "f7a28bfe-537b-4f5d-85c5-9b8fb1bd5375",
     "1632381883ccbe2cd0",
-    "1d22c875-3a7e-432d-8986-803ea504009b"
+    "1d22c875-3a7e-432d-8986-803ea504009b",
+    "31dce974-3192-405a-a82d-93c7255318fe"
   ]
 }
