@@ -67,7 +67,8 @@
   .cus-section-banner-v11 .banner-ver {
       height: 100% !important;
   }
-  .cus-section-banner-v11 .banner-item .content {
+  .cus-section-banner-v11 .banner-item .content,
+  .cus-banner-v11-2 .banner-item .content {
   position: unset;
 }
 
