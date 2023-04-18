@@ -26,6 +26,7 @@
     background-image: url('https://cdn.shopify.com/s/files/1/0678/7625/8096/files/Rectangle_15.png?v=1681807603');
     background-size: cover;
     background-position: center;
+    margin-top: -20px;
   }
   .section-service-v1 .itemtservice .box-service {
     display: flex;
