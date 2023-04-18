@@ -34,14 +34,14 @@
           "settings": {
             "select_position_content": "left",
             "select_textalign_content": "left",
-            "block_title_top1": "Style Destination",
-            "color_block_title_top1": "#e5e5e5",
+            "block_title_top1": "Welcome To OUR WEBSITE",
+            "color_block_title_top1": "#ffffff",
             "effect_title1": "bounce",
-            "block_title_top": "natural materials",
-            "color_block_title_top": "#ffffff",
+            "block_title_top": "Sassy’s shoes  & boutique",
+            "color_block_title_top": "#111111",
             "effect_title": "bounce",
-            "block_title_top2": "We use natural materials that are environmentally friendly",
-            "color_block_title_top2": "#e5e5e5",
+            "block_title_top2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            "color_block_title_top2": "#111111",
             "effect_title2": "bounce",
             "block_buton": "Shop now",
             "color_block_button": "#ffffff",
@@ -50,7 +50,9 @@
             "block_url": "shopify:\/\/collections\/all",
             "effect_title3": "bounce",
             "ena_slide_video": false,
-            "url_ytb_video": ""
+            "url_ytb_video": "",
+            "block_banerimage": "shopify:\/\/shop_images\/BANNER_3_71802595-4a43-437b-8fde-cd67c6225f2c.png",
+            "block_banerimage_mb": "shopify:\/\/shop_images\/BANNER_3_71802595-4a43-437b-8fde-cd67c6225f2c.png"
           }
         }
       },
