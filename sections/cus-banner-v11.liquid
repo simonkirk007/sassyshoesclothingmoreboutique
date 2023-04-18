@@ -58,9 +58,8 @@
               
               
           <div class="col-lg-6 col-md-4 col-12 col-sm-12">
-
             <div class="banner-ver">
-              <div class="banner-item end">
+              <div class="banner-item">
                 <a href="{{section.settings.url_button_banner3}}" class="box-img d-block">
                   {% if section.settings.banner_img3 != blank %}
                   <img data-src="{{section.settings.banner_img3 | img_url: 'master'}}" class="lazyload img-fluid w-100" alt="_img">
@@ -93,7 +92,34 @@
     .section-banner-v11 .banner-item .content .btn-{{ section.id }}:hover {
       color: {{section.settings.color_url_hover}};
     }
-      
+    .cus-section-banner-v11 .banner-item .content {
+    visibility: visible;
+    transform: translateY(-50%) scale(1);
+    }
+
+    .cus-section-banner-v11 .banner-item .content::after {
+        display: none;
+    }
+
+    .cus-section-banner-v11 .banner-item:after {
+        display: none;
+    }
+    .cus-section-banner-v11 .banner-item, 
+    .cus-section-banner-v11 .banner-ver {
+        height: 100% !important;
+    }
+    .cus-section-banner-v11 .banner-item .content {
+    position: unset;
+}
+
+        .cus-section-banner-v11 .banner-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row-reverse;
+            background-color: #F7EBF4;
+            padding: 15px 15px;
+        }
   </style>
   
   {% schema %}

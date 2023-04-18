@@ -448,6 +448,29 @@
         "bg_btn_hover3": "#7cb538",
         "url_banner3": "shopify:\/\/collections\/all"
       }
+    },
+    "d54a1a0b-19f8-46cf-8db1-6601ba72047f": {
+      "type": "cus-banner-v11",
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "",
+        "sub_title1": "$12",
+        "title_banner1": "Fashion Shoe",
+        "button_banner1": "View More",
+        "url_button_banner1": "shopify:\/\/collections\/all",
+        "sub_title2": "From $9",
+        "title_banner2": "Style Sandals",
+        "button_banner2": "View More",
+        "url_button_banner2": "shopify:\/\/collections\/all",
+        "sub_title3": "From $11",
+        "title_banner3": "Summer collections",
+        "button_banner3": "View More",
+        "url_button_banner3": "shopify:\/\/collections\/all",
+        "color_subtitle": "#000",
+        "color_title_banner": "#fff",
+        "color_url": "#fff",
+        "color_url_hover": "#f2f2f2"
+      }
     }
   },
   "order": [
@@ -469,6 +492,7 @@
     "588ce0fa-e9a4-4882-ba1a-52efbe382d5d",
     "5798b115-e67c-4ede-bb6f-9d027f26d509",
     "20d660f0-87b8-42cb-87e9-69fcb906f54f",
-    "621c6f68-4ed6-4224-81f7-3f720ae87061"
+    "621c6f68-4ed6-4224-81f7-3f720ae87061",
+    "d54a1a0b-19f8-46cf-8db1-6601ba72047f"
   ]
 }
