@@ -1,0 +1,186 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v10" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{%endif%} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v10 mt-all">
+    <div class="container container-v2">
+      <div class="row banner_collection_wrap">   
+        <div class="col-12 col-md-4 col-lg-4  outner-left">
+          <div class="wrap-content">
+            <div class="content">
+              {% if section.settings.sub_title != blank%}
+              <h4 style="color: {{section.settings.color_sub}}">{{section.settings.sub_title}}</h4>
+              {% endif %}
+              {% if section.settings.title_banner != blank%}
+              <h3 class="title-banner" style="color: {{section.settings.color_title}}">{{section.settings.title_banner}}</h3>
+              {% endif %}
+              {% if section.settings.sub_banner != blank%}
+              <p class="sub-title" style="color: {{section.settings.color_sub1}}">{{section.settings.sub_banner}}</p>
+              {% endif %}
+              {% if section.settings.button_banner != blank %}
+              <a href="{{section.settings.url_banner}}" class="button-shop button-shop-{{ section.id }}" title="">{{section.settings.button_banner}}</a>
+              {% endif %}
+            </div>
+
+            <div class="bg_sample" style="background-color:{{section.settings.bg_banner}}">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-8 col-lg-8  outner-right">
+          <div class=" row" style="height: 100%; align-items: center;">
+            <div class="col-12 col-sm-6 col-lg-6 banner-item ">
+              <div data-animate="bounceInRight" class="widget-banner-item" style="animation-delay: 0.2s; -webkit-animation-duration: 2s;  animation-duration: 2s;">
+                <div class="image-wrapper" style="background-image: url( {%if section.settings.img_banner1 != blank %}{{section.settings.img_banner1 | img_url: 'master'}} {% else %}///via.placeholder.com/420x420{% endif %})">
+                </div>
+                <div class="category">
+                  <a href="{{section.settings.url_banner}}">
+
+                    {% if section.settings.title_banner2 != blank%}
+                    <h4 class="title1 title1-{{ section.id }}" style="color: {{section.settings.color_title_banner2}}">{{section.settings.title_banner2}}</h4>
+                    {% endif %}
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-6 banner-item">
+              <div data-animate="bounceInRight" class="widget-banner-item" style="animation-delay: 0.2s; -webkit-animation-duration: 2s;  animation-duration: 2s;">
+                <div class="image-wrapper" style="background-image: url( {%if section.settings.img_banner2 != blank %}{{section.settings.img_banner2 | img_url: 'master'}} {% else %}///via.placeholder.com/420x420{% endif %})">
+                </div>
+                <div class="category">
+                  <a href="{{section.settings.url_banner}}">
+
+                    {% if section.settings.title_banner3 != blank%}
+                    <h4 class="title1 title1-{{ section.id }}" style="color: {{section.settings.color_title_banner2}}">{{section.settings.title_banner3}}</h4>
+                    {% endif %}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .section-banner-v10 .widget-banner-item .category .title1-{{ section.id }}:hover {
+    color : {{section.settings.color_title1_hover}}!important;
+  }
+   .section-banner-v10 .wrap-content .content .button-shop-{{ section.id }}:hover {
+    color : {{section.settings.color_title1_hover}};
+  }
+</style>
+
+{% schema %}
+{
+  "name": "BANNER V10",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Setting Banner"
+    },
+   
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub Banner",
+      "default": "2021"
+    },
+    {
+      "type": "color",
+      "id": "color_sub",
+      "label": "Color Sub Title banner",
+      "default": "#000"
+    },
+    {
+      "type": "text",
+      "id": "title_banner",
+      "label": "Title Banner",
+      "default": "Spring Collection"
+    },
+    {
+      "type": "color",
+      "id": "color_title",
+      "label": "Color Title banner",
+      "default": "#000"
+    },
+    {
+      "type": "text",
+      "id": "sub_banner",
+      "label": "Title Banner",
+      "default": "Discover this week the latest pieces from our latest collection Spring Summer 2021 Woman"
+    },
+    {
+      "type": "color",
+      "id": "color_sub1",
+      "label": "Color Sub banner",
+      "default": "#000"
+    },
+
+    {
+      "type": "text",
+      "id": "button_banner",
+      "label": "Button Banner",
+      "default": "Shop now"
+    },
+    {
+      "type": "color",
+      "id": "bg_banner",
+      "label": "Backgorund Color",
+      "default": "#f2f2f2"
+    },
+    {
+      "type": "url",
+      "id": "url_banner",
+      "label": "URL Button ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner1",
+      "label": "Background Image",
+      "info": "420 x 420px recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_banner2",
+      "label": "Title Banner 2",
+      "default": "T-Shirt"
+    },
+    {
+      "type": "color",
+      "id": "color_title_banner2",
+      "label": "Color Sub banner 2",
+      "default": "#000"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner2",
+      "label": "Background Image 2",
+      "info": "420 x 420px recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_banner3",
+      "label": "Title Banner 3",
+      "default": "Dress"
+    },
+    {
+      "type": "color",
+      "id": "color_title1_hover",
+      "label": "Color Title banner Hover",
+      "default": "#ee7b7b"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V10",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

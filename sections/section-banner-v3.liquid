@@ -1,0 +1,231 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v3" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{%endif%} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v3">
+    <div>
+      <div class="row" style="max-width: 100%;margin: 0 auto;">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="banner-item">
+            <a href="{{section.settings.url_button_banner1}}" class="box-img d-block">
+              {% if section.settings.banner_img1 != blank %}
+              <img data-src="{{section.settings.banner_img1 | img_url: 'master'}}" class="lazyload img-fluid w-100" alt="_img">
+              {% else %}
+              <img data-src="//via.placeholder.com/844x367" class="lazyload img-fluid w-100" alt="_img">
+              {% endif %}
+            </a>
+            <div class="content">
+              {% if section.settings.sub_banner1 != blank %}
+              <p class="sub-banner" style="color: {{section.settings.color_sub_banner}}">{{section.settings.sub_banner1}}</p>
+              {% endif %}
+              {% if section.settings.title_banner1 != blank %}
+              <h3 class="title-banner" style="color: {{section.settings.color_title_banner}}">{{section.settings.title_banner1}}</h3>
+              {% endif %}
+              <div class="qodef-m-line"></div>
+            </div>
+          </div> 
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="banner-item">
+            <a href="{{section.settings.url_button_banner2}}" class="box-img d-block">
+              {% if section.settings.banner_img2 != blank %}
+              <img data-src="{{section.settings.banner_img2 | img_url: 'master'}}" class="lazyload img-fluid w-100" alt="_img">
+              {% else %}
+              <img data-src="//via.placeholder.com/844x367" class="lazyload img-fluid w-100" alt="_img">
+              {% endif %}
+            </a>
+            <div class="content">
+              {% if section.settings.sub_banner2 != blank %}
+              <p class="sub-banner" style="color: {{section.settings.color_sub_banner}}">{{section.settings.sub_banner2}}</p>
+              {% endif %}
+              {% if section.settings.title_banner2 != blank %}
+              <h3 class="title-banner" style="color: {{section.settings.color_title_banner}}">{{section.settings.title_banner2}}</h3>
+              {% endif %}
+               <div class="qodef-m-line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="banner-item">
+            <a href="{{section.settings.url_button_banner3}}" class="box-img d-block">
+              {% if section.settings.banner_img3 != blank %}
+              <img data-src="{{section.settings.banner_img3 | img_url: 'master'}}" class="lazyload img-fluid w-100" alt="_img">
+              {% else %}
+              <img data-src="//via.placeholder.com/844x367" class="lazyload img-fluid w-100" alt="_img">
+              {% endif %}
+            </a>
+            <div class="content">
+              {% if section.settings.sub_banner3 != blank %}
+              <p class="sub-banner" style="color: {{section.settings.color_sub_banner}}">{{section.settings.sub_banner3}}</p>
+              {% endif %}
+              {% if section.settings.title_banner3 != blank %}
+              <h3 class="title-banner" style="color: {{section.settings.color_title_banner}}">{{section.settings.title_banner3}}</h3>
+              {% endif %}
+               <div class="qodef-m-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>   
+</div>
+<style>
+  .section-banner-v3 .banner-item .content .btn-{{ section.id }} {
+    color: {{section.settings.color_url}};
+  }
+  .section-banner-v3 .banner-item .content .btn-{{ section.id }}:hover {
+    color: {{section.settings.color_url_hover}};
+  }
+</style>
+
+{% schema %}
+{
+  "name": "BANNER V3",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 1"
+    },
+    {
+      "type": "text",
+      "id": "title_banner1",
+      "label": "Title Banner 1",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_banner1",
+      "label": "Sub Banner 1",
+      "default": "Banner Sub"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_img1",
+      "label": "Image",
+      "info": "844x366px recommended"
+    },
+    {
+      "type": "text",
+      "id": "button_banner1",
+      "label": "Button Banner 1",
+      "default": "View More"
+    },
+    {
+      "type": "url",
+      "id": "url_button_banner1",
+      "label": "URL Banner 1 ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 2"
+    },
+    {
+      "type": "text",
+      "id": "title_banner2",
+      "label": "Title Banner 2",
+      "default": "Banner Title"
+    },
+
+    {
+      "type": "text",
+      "id": "sub_banner2",
+      "label": "Sub Banner 2",
+      "default": "Banner Sub"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_img2",
+      "label": "Image",
+      "info": "844x366px recommended"
+    },
+    {
+      "type": "url",
+      "id": "url_button_banner2",
+      "label": "URL Banner 2 ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 3"
+    },
+    {
+      "type": "text",
+      "id": "title_banner3",
+      "label": "Title Banner 3",
+      "default": "Banner Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_banner3",
+      "label": "Sub Banner 3",
+      "default": "Banner Sub"
+    },
+    {
+      "type": "url",
+      "id": "url_button_banner3",
+      "label": "URL Banner 3 ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_img3",
+      "label": "Image",
+      "info": "844x366px recommended"
+    },
+    {
+      "type": "header",
+      "content": "Settings Color Banner"
+    },
+    {
+      "type": "color",
+      "id": "color_title_banner",
+      "label": "Color Title Banner",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "color_sub_banner",
+      "label": "Color Sub Banner",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "color_url",
+      "label": "Color URL",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "color_url_hover",
+      "label": "Color URL Hover",
+      "default": "#000"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V3",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

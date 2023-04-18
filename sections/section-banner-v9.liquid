@@ -1,0 +1,291 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v9" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{%endif%} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v9 {% if section.settings.ena_margin_top %} mt-all {% endif %}">
+    <div class="container container-v2 {% if section.settings.enable_container %} container container-v2 {% endif %}">
+       <div class="content">
+          {% if section.settings.title_banner != blank%}
+          <h3 class="title-banner" style="color: {{section.settings.color_title}}">{{section.settings.title_banner}}</h3>
+          {% endif %}
+          {% if section.settings.sub_banner != blank%}
+          <p class="sub-title" style="color: {{section.settings.color_sub1}}">{{section.settings.sub_banner}}</p>
+          {% endif %}
+        </div>
+      <div class="row-grid"> 
+        <div class="col-item">
+          <div class="banner-item">
+            <a href="{{section.settings.url_banner1}}" class="box-img d-block">
+              {% if section.settings.img_banner1 != blank %}
+              <img data-src="{{section.settings.img_banner1 | img_url: 'master'}}" class="lazyload img-fluid w-100" alt="_img">
+              {% else %}
+              <img data-src="//via.placeholder.com/410x490" class="lazyload img-fluid w-100" alt="_img">
+              {% endif %}
+            </a>
+            <div class="content">
+              {% if section.settings.btn_banner1 != blank %}
+              <a href="{{section.settings.url_banner1}}" style="color: {{section.settings.color_btn1}}; background: {{section.settings.bg_btn1}}" class="btn1-{{ section.id }}">{{section.settings.btn_banner1}}</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>    
+        <div class="col-item">
+          <div class="banner-item image-banner">
+            <a href="{{section.settings.url_banner2}}" class="box-img d-block">
+              {% if section.settings.img_banner2 != blank %}
+              <img data-src="{{section.settings.img_banner2 | img_url: 'master'}}" class="lazyload img-fluid w-100" alt="_img">
+              {% else %}
+              <img data-src="//via.placeholder.com/410x490" class="lazyload img-fluid w-100" alt="_img">
+              {% endif %}
+            </a>
+            <div class="content">
+              {% if section.settings.btn_banner2 != blank %}
+              <a href="{{section.settings.url_banner2}}" style="color: {{section.settings.color_btn2}}; background: {{section.settings.bg_btn2}}" class="btn2-{{ section.id }}">{{section.settings.btn_banner2}}</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>    
+        <div class="col-item">
+          <div class="banner-item">
+            <a href="{{section.settings.url_banner3}}" class="box-img d-block">
+              {% if section.settings.img_banner3 != blank %}
+              <img data-src="{{section.settings.img_banner3 | img_url: 'master'}}" class="lazyload img-fluid w-100" alt="_img">
+              {% else %}
+              <img data-src="//via.placeholder.com/410x490" class="lazyload img-fluid w-100" alt="_img">
+              {% endif %}
+            </a>
+            <div class="content">
+              {% if section.settings.btn_banner3 != blank %}
+              <a href="{{section.settings.url_banner3}}" style="color: {{section.settings.color_btn3}}; background: {{section.settings.bg_btn3}}" class="btn3-{{ section.id }}">{{section.settings.btn_banner3}}</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .section-banner-v9 .banner-item .content .btn1-{{ section.id }}:hover {
+    color: {{section.settings.color_btn_hover1}}!important;
+    background: {{section.settings.bg_btn_hover1}}!important;
+  }
+  .section-banner-v9 .banner-item .content .btn2-{{ section.id }}:hover {
+    color: {{section.settings.color_btn_hover2}}!important;
+    background: {{section.settings.bg_btn_hover2}}!important;
+  }
+  .section-banner-v9 .banner-item .content .btn3-{{ section.id }}:hover {
+    color: {{section.settings.color_btn_hover3}}!important;
+    background: {{section.settings.bg_btn_hover3}}!important;
+  }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "BANNER V9",
+  "settings": [
+	{
+      "type": "checkbox",
+      "id": "enable_container",
+      "label": "Add container",
+      "default": false
+	},
+	{
+      "type": "checkbox",
+      "id": "ena_margin_top",
+      "label": "Add margin top",
+      "default": false
+	},
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 1"
+    },
+
+    {
+      "type": "text",
+      "id": "title_banner",
+      "label": "Title Banner",
+      "default": "Spring Collection"
+    },
+    {
+      "type": "text",
+      "id": "sub_banner",
+      "label": "Title Banner",
+      "default": "Discover this week the latest pieces from our latest collection Spring Summer 2021 Woman"
+    },
+    {
+      "type": "color",
+      "id": "color_title",
+      "label": "Color Title banner",
+      "default": "#000"
+    },
+
+    {
+      "type": "color",
+      "id": "color_sub1",
+      "label": "Color Sub banner",
+      "default": "#000"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner1",
+      "label": "Image",
+      "info": "410 x 490px recommended"
+    },
+    {
+      "type": "text",
+      "id": "btn_banner1",
+      "label": "Button Banner 1",
+      "default": "Outdoor Plants"
+    },
+    {
+      "type": "color",
+      "id": "color_btn1",
+      "label": "Color Button",
+      "default": "#7cb538"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn1",
+      "label": "Background Button",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_btn_hover1",
+      "label": "Color Button Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn_hover1",
+      "label": "Background Button Hover",
+      "default": "#7cb538"
+    },
+    {
+      "type": "url",
+      "id": "url_banner1",
+      "label": "URL Banner 1 ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner2",
+      "label": "Image",
+      "info": "410 x 490px recommended"
+    },
+    {
+      "type": "text",
+      "id": "btn_banner2",
+      "label": "Button Banner 2",
+      "default": "House Plants"
+    },
+    {
+      "type": "color",
+      "id": "color_btn2",
+      "label": "Color Button",
+      "default": "#7cb538"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn2",
+      "label": "Background Button",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_btn_hover2",
+      "label": "Color Button Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn_hover2",
+      "label": "Background Button Hover",
+      "default": "#7cb538"
+    },
+    {
+      "type": "url",
+      "id": "url_banner2",
+      "label": "URL Banner 2 ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner3",
+      "label": "Image",
+      "info": "410 x 490px recommended"
+    },
+    {
+      "type": "text",
+      "id": "btn_banner3",
+      "label": "Button Banner 3",
+      "default": "Pots & Planters"
+    },
+    {
+      "type": "color",
+      "id": "color_btn3",
+      "label": "Color Button",
+      "default": "#7cb538"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn3",
+      "label": "Background Button",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "color_btn_hover3",
+      "label": "Color Button Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "bg_btn_hover3",
+      "label": "Background Button Hover",
+      "default": "#7cb538"
+    },
+    {
+      "type": "url",
+      "id": "url_banner3",
+      "label": "URL Banner 3 ",
+      "default": "/collections/all"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V9",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

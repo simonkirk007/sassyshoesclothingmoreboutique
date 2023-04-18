@@ -1,0 +1,308 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v4" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{%endif%} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v4 mt-all">
+    <div class="row" style="background-color:{{section.settings.bg_banner}};max-width: 100%;margin: 0 auto;">
+      <div class="col-12 elementor-container">
+        <div class="content text-center">
+          {% if section.settings.sub_title_banner != blank %}
+          <p class="sub-title" style="color: {{section.settings.color_sub_title}}">{{section.settings.sub_title_banner}}</p>
+          {% endif %}
+          {% if section.settings.title_banner != blank %}
+          <h3 class="title-banner" style="color: {{section.settings.color_title}}">{{section.settings.title_banner}}</h3>
+          {% endif %}
+          <div class="qodef-m-line"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container container-v2">
+      <div class="row elementor-section">
+        <div class="col-12 col-md-6 col-lg-3" style="padding: 0 30px;">
+          <div class="qodef-e-image">
+            <a href="{{section.settings.url_banner}}">
+              {% if section.settings.img_banner1 != blank %}
+              <img data-src="{{section.settings.img_banner1 | img_url : 'master'}}" class="lazyload img-fluid w-100" alt >
+              {% else %}
+              <img data-src="//via.placeholder.com/800x1078" class="lazyload img-fluid w-100" alt>
+              {% endif %}
+            </a>
+          </div>
+          <div class="qodef-e-content">
+            {% if section.settings.title_banner2 != blank %}
+            <h4 class="title-banner" style="color: {{section.settings.color_title2}}">{{section.settings.title_banner2}}</h4>
+            {% endif %}
+            {% if section.settings.sub_title_banner2 != blank %}
+            <h6 class="sub-title" style="color: {{section.settings.color_sub_title2}}">{{section.settings.sub_title_banner2}}</h6>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3" style="padding: 0 30px;">
+          <div class="qodef-e-image">
+            <a href="{{section.settings.url_banner}}">
+              {% if section.settings.img_banner2 != blank %}
+              <img data-src="{{section.settings.img_banner2 | img_url : 'master'}}" class="lazyload img-fluid w-100" alt >
+              {% else %}
+              <img data-src="//via.placeholder.com/800x1078" class="lazyload img-fluid w-100" alt>
+              {% endif %}
+            </a>
+          </div>
+          <div class="qodef-e-content">
+            {% if section.settings.title_banner3 != blank %}
+            <h4 class="title-banner" style="color: {{section.settings.color_title3}}">{{section.settings.title_banner3}}</h4>
+            {% endif %}
+            {% if section.settings.sub_title_banner3 != blank %}
+            <h6 class="sub-title" style="color: {{section.settings.color_sub_title3}}">{{section.settings.sub_title_banner3}}</h6>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3" style="padding: 0 30px;">
+          <div class="qodef-e-image">
+            <a href="{{section.settings.url_banner}}">
+              {% if section.settings.img_banner3 != blank %}
+              <img data-src="{{section.settings.img_banner3 | img_url : 'master'}}" class="lazyload img-fluid w-100" alt >
+              {% else %}
+              <img data-src="//via.placeholder.com/800x1078" class="lazyload img-fluid w-100" alt>
+              {% endif %}
+            </a>
+          </div>
+          <div class="qodef-e-content">
+            {% if section.settings.title_banner4 != blank %}
+            <h4 class="title-banner" style="color: {{section.settings.color_title4}}">{{section.settings.title_banner4}}</h4>
+            {% endif %}
+            {% if section.settings.sub_title_banner4 != blank %}
+            <h6 class="sub-title" style="color: {{section.settings.color_sub_title4}}">{{section.settings.sub_title_banner4}}</h6>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3" style="padding: 0 30px;">
+          <div class="qodef-e-image">
+            <a href="{{section.settings.url_banner}}">
+              {% if section.settings.img_banner4 != blank %}
+              <img data-src="{{section.settings.img_banner4 | img_url : 'master'}}" class="lazyload img-fluid w-100" alt >
+              {% else %}
+              <img data-src="//via.placeholder.com/800x1078" class="lazyload img-fluid w-100" alt>
+              {% endif %}
+            </a>
+          </div>
+          <div class="qodef-e-content">
+            {% if section.settings.title_banner5 != blank %}
+            <h4 class="title-banner" style="color: {{section.settings.color_title5}}">{{section.settings.title_banner5}}</h4>
+            {% endif %}
+            {% if section.settings.sub_title_banner5 != blank %}
+            <h6 class="sub-title" style="color: {{section.settings.color_sub_title5}}">{{section.settings.sub_title_banner5}}</h6>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .section-banner-v4 .banner-item .btn-banner-{{ section.id }} {
+    color: {{section.settings.color_btn}};
+    background: {{section.settings.bg_btn}};
+  }
+  .section-banner-v4 .banner-item .btn-banner-{{ section.id }}:hover {
+    color: {{section.settings.color_btn_hover}};
+    background: {{section.settings.bg_btn_hover}};
+  }
+</style>
+{% schema %}
+{
+"name": "BANNER V4",
+"settings": [
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 1"
+    },
+
+    {
+      "type": "color",
+      "id": "bg_banner",
+      "label": "Backgorund Color",
+      "default": "#E7E1D8"
+    },
+    {
+      "type": "text",
+      "id": "title_banner",
+      "label": "Title Banner",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "color",
+      "id": "color_title",
+      "label": "Color Title banner",
+      "default": "#fff"
+    },
+    {
+      "type": "text",
+      "id": "sub_title_banner",
+      "label": "Sub Title Banner",
+      "default": " Welcome in."
+    },
+    {
+      "type": "color",
+      "id": "color_sub_title",
+      "label": "Color Sub Title banner",
+      "default": "#fff"
+    },
+    {
+      "type": "url",
+      "id": "url_banner",
+      "label": "URL Button ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner1",
+      "label": "Image Banner 1",
+      "info": "800x1078px recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_banner2",
+      "label": "Name 1",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "text",
+      "id": "sub_title_banner2",
+      "label": "Position Name 1",
+      "default": " Welcome in."
+    },
+    {
+      "type": "color",
+      "id": "color_title2",
+      "label": "Color Title banner 2",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "color_sub_title2",
+      "label": "Color Sub Title banner 2",
+      "default": "#000"
+    },
+
+    {
+      "type": "image_picker",
+      "id": "img_banner2",
+      "label": "Image Banner 2",
+      "info": "800x1078 px recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_banner3",
+      "label": "Name 2",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "text",
+      "id": "sub_title_banner3",
+      "label": "Position Name 2",
+      "default": " Welcome in."
+    },
+    {
+      "type": "color",
+      "id": "color_title3",
+      "label": "Color Title banner 3",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "color_sub_title3",
+      "label": "Color Sub Title banner 3",
+      "default": "#000"
+    },
+
+    {
+      "type": "image_picker",
+      "id": "img_banner3",
+      "label": "Image Banner 3",
+      "info": "800x1078px recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_banner4",
+      "label": "Name 3",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "text",
+      "id": "sub_title_banner4",
+      "label": "Sub Title Banner 4",
+      "default": " Welcome in."
+    },
+    {
+      "type": "color",
+      "id": "color_title4",
+      "label": "Position Name 3",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "color_sub_title4",
+      "label": "Color Sub Title banner 4",
+      "default": "#000"
+    },
+
+
+    {
+      "type": "image_picker",
+      "id": "img_banner4",
+      "label": "Image Banner 4",
+      "info": "800x1078px recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_banner5",
+      "label": "Name 4",
+      "default": "Decor & Furniture"
+    },
+    {
+      "type": "text",
+      "id": "sub_title_banner5",
+      "label": "Position Name 4",
+      "default": " Welcome in."
+    },
+    {
+      "type": "color",
+      "id": "color_title5",
+      "label": "Color Title banner 5",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "color_sub_title5",
+      "label": "Color Sub Title banner 5",
+      "default": "#000"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V4",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
