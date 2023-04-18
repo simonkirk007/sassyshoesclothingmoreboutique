@@ -612,7 +612,6 @@
     },
     "e26a332e-1637-4aa8-b39a-908520a2ea8b": {
       "type": "section-testimonial-v2",
-      "disabled": true,
       "blocks": {
         "template--18796696600880__e26a332e-1637-4aa8-b39a-908520a2ea8b-1681852820264de11c-0": {
           "type": "testimonial",
