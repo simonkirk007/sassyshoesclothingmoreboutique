@@ -6,10 +6,10 @@
         "163213334288f9da0e-0": {
           "type": "slideshow",
           "settings": {
-            "select_position_content": "left",
-            "select_textalign_content": "left",
+            "select_position_content": "center",
+            "select_textalign_content": "center",
             "block_title_top1": "Welcome To OUR WEBSITE",
-            "color_block_title_top1": "#111111",
+            "color_block_title_top1": "#ffffff",
             "effect_title1": "bounce",
             "block_title_top": "Sassy’s shoes  & boutique",
             "color_block_title_top": "#000000",
@@ -32,8 +32,8 @@
         "163213334288f9da0e-1": {
           "type": "slideshow",
           "settings": {
-            "select_position_content": "left",
-            "select_textalign_content": "left",
+            "select_position_content": "center",
+            "select_textalign_content": "center",
             "block_title_top1": "Welcome To OUR WEBSITE",
             "color_block_title_top1": "#ffffff",
             "effect_title1": "bounce",
