@@ -103,7 +103,7 @@ footer.footer_v2 {
 }
 
 .footer_v2 .top-footer, .footer_v2 .copyright {
-    background: transparent;
+    background: transparent !important;
     border: unset;
 }
 
