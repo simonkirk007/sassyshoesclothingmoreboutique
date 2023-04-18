@@ -73,9 +73,9 @@
           "settings": {
             "img_icon": "shopify:\/\/shop_images\/QUALITY_ICON_e6783032-4bc3-4659-b603-c296993fa1ba.png",
             "block_title": "30-day money back guarantee",
-            "color_title": "#fff",
+            "color_title": "#ffffff",
             "block_content": "",
-            "color_content": "#fff"
+            "color_content": "#ffffff"
           }
         },
         "template--18796696600880__6b1b51ae-244b-4dd0-bced-000095da0d69-16818073960fc30673-1": {
@@ -83,9 +83,9 @@
           "settings": {
             "img_icon": "shopify:\/\/shop_images\/gift.png",
             "block_title": "Free samples With every order",
-            "color_title": "#fff",
+            "color_title": "#ffffff",
             "block_content": "",
-            "color_content": "#fff"
+            "color_content": "#ffffff"
           }
         },
         "template--18796696600880__6b1b51ae-244b-4dd0-bced-000095da0d69-16818073960fc30673-2": {
@@ -93,9 +93,9 @@
           "settings": {
             "img_icon": "shopify:\/\/shop_images\/Vector.png",
             "block_title": "Free shipping all aroung the world",
-            "color_title": "#fff",
+            "color_title": "#ffffff",
             "block_content": "",
-            "color_content": "#fff"
+            "color_content": "#ffffff"
           }
         }
       },
@@ -115,24 +115,24 @@
       "settings": {
         "margin_top": "",
         "margin_bottom": "",
-        "sub_title1": "$12",
-        "title_banner1": "Fashion Shoe",
+        "sub_title1": "New",
+        "title_banner1": "Place your title here",
         "banner_img1": "shopify:\/\/shop_images\/Group_1000001777_1.png",
         "button_banner1": "View More",
         "url_button_banner1": "shopify:\/\/collections\/all",
-        "sub_title2": "From $9",
-        "title_banner2": "Style Sandals",
-        "banner_img2": "shopify:\/\/shop_images\/Group_1000001779.png",
+        "sub_title2": "New",
+        "title_banner2": "Place your title here",
+        "banner_img2": "shopify:\/\/shop_images\/bann_1.png",
         "button_banner2": "View More",
         "url_button_banner2": "shopify:\/\/collections\/all",
-        "sub_title3": "From $11",
-        "title_banner3": "Summer collections",
+        "sub_title3": "New Arrivals",
+        "title_banner3": "Place your title here",
         "button_banner3": "View More",
         "url_button_banner3": "shopify:\/\/collections\/all",
         "banner_img3": "shopify:\/\/shop_images\/Group_1000001778.png",
-        "color_subtitle": "#000",
-        "color_title_banner": "#fff",
-        "color_url": "#fff",
+        "color_subtitle": "#b13495",
+        "color_title_banner": "#111111",
+        "color_url": "#b13495",
         "color_url_hover": "#f2f2f2"
       }
     },
@@ -226,26 +226,26 @@
         "title_sub_banner2": "Latest Collection",
         "btn_banner1": "SHOP NOW",
         "color_sub_title": "#f2f2f2",
-        "color_title": "#000",
+        "color_title": "#000000",
         "color_sub_title2": "#f2f2f2",
-        "color_btn_banner": "#fff",
-        "hover_color_btn_banner": "#fff"
+        "color_btn_banner": "#ffffff",
+        "hover_color_btn_banner": "#ffffff"
       }
     },
     "539547b8-e553-46cb-b850-40ec6ff10db4": {
       "type": "section-banner-v10",
       "settings": {
         "sub_title": "2021",
-        "color_sub": "#000",
+        "color_sub": "#000000",
         "title_banner": "Spring Collection",
-        "color_title": "#000",
+        "color_title": "#000000",
         "sub_banner": "Discover this week the latest pieces from our latest collection Spring Summer 2021 Woman",
-        "color_sub1": "#000",
+        "color_sub1": "#000000",
         "button_banner": "Shop now",
         "bg_banner": "#f2f2f2",
         "url_banner": "shopify:\/\/collections\/all",
         "title_banner2": "T-Shirt",
-        "color_title_banner2": "#000",
+        "color_title_banner2": "#000000",
         "title_banner3": "Dress",
         "color_title1_hover": "#ee7b7b"
       }
@@ -267,9 +267,9 @@
         "title_banner3": "Summer collections",
         "button_banner3": "View More",
         "url_button_banner3": "shopify:\/\/collections\/all",
-        "color_subtitle": "#000",
-        "color_title_banner": "#fff",
-        "color_url": "#fff",
+        "color_subtitle": "#000000",
+        "color_title_banner": "#ffffff",
+        "color_url": "#ffffff",
         "color_url_hover": "#f2f2f2"
       }
     },
@@ -278,14 +278,14 @@
       "settings": {
         "select_pos": "left",
         "title_banner": "LIVE YOUR HAPPY LIFE!",
-        "color_title": "#222",
+        "color_title": "#222222",
         "sub_title": "When you’ve got your health, you got everything.",
-        "color_sub_title": "#222",
+        "color_sub_title": "#222222",
         "button_1": "SHOP NOW",
-        "color_btn": "#fff",
-        "bg_btn": "#000",
-        "color_btn_hover": "#000",
-        "bg_btn_hover": "#fff",
+        "color_btn": "#ffffff",
+        "bg_btn": "#000000",
+        "color_btn_hover": "#000000",
+        "bg_btn_hover": "#ffffff",
         "url_button1": "shopify:\/\/collections\/all",
         "margin_top": "",
         "margin_bottom": ""
@@ -306,10 +306,10 @@
         "title_banner3": "Banner Title",
         "sub_banner3": "Banner Sub",
         "url_button_banner3": "shopify:\/\/collections\/all",
-        "color_title_banner": "#000",
-        "color_sub_banner": "#000",
-        "color_url": "#000",
-        "color_url_hover": "#000"
+        "color_title_banner": "#000000",
+        "color_sub_banner": "#000000",
+        "color_url": "#000000",
+        "color_url_hover": "#000000"
       }
     },
     "01c148fa-8223-4d1e-8046-c5bb38008bf2": {
@@ -317,28 +317,28 @@
       "settings": {
         "margin_top": "",
         "margin_bottom": "",
-        "bg_banner": "#E7E1D8",
+        "bg_banner": "#e7e1d8",
         "title_banner": "Decor & Furniture",
-        "color_title": "#fff",
+        "color_title": "#ffffff",
         "sub_title_banner": "Welcome in.",
-        "color_sub_title": "#fff",
+        "color_sub_title": "#ffffff",
         "url_banner": "shopify:\/\/collections\/all",
         "title_banner2": "Decor & Furniture",
         "sub_title_banner2": "Welcome in.",
-        "color_title2": "#000",
-        "color_sub_title2": "#000",
+        "color_title2": "#000000",
+        "color_sub_title2": "#000000",
         "title_banner3": "Decor & Furniture",
         "sub_title_banner3": "Welcome in.",
-        "color_title3": "#000",
-        "color_sub_title3": "#000",
+        "color_title3": "#000000",
+        "color_sub_title3": "#000000",
         "title_banner4": "Decor & Furniture",
         "sub_title_banner4": "Welcome in.",
-        "color_title4": "#000",
-        "color_sub_title4": "#000",
+        "color_title4": "#000000",
+        "color_sub_title4": "#000000",
         "title_banner5": "Decor & Furniture",
         "sub_title_banner5": "Welcome in.",
-        "color_title5": "#000",
-        "color_sub_title5": "#000"
+        "color_title5": "#000000",
+        "color_sub_title5": "#000000"
       }
     },
     "5fefb471-9bf7-4a96-89ee-c7f2d9869114": {
@@ -351,13 +351,13 @@
         "margin_bottom": "",
         "bg_banner": "#f2f2f2",
         "title_banner": "Decor & Furniture",
-        "color_title": "#fff",
+        "color_title": "#ffffff",
         "sub_title_banner": "Timeless and evolving, unlimited in expression, we build spaces around the lives we lead. Using furnishings and objects of good design, that respect a space's purpose, creates environments that are beautiful and livable—the ones we love best.Handcrafted furniture, artisanal rugs, wallpaper, classic vases, and lighting accessories—well-made and carefully considered—whether made by Heath or by like-minded makers we admire. Welcome in.",
-        "color_sub_title": "#fff",
+        "color_sub_title": "#ffffff",
         "button_banner": "Shop now",
-        "color_btn": "#222",
-        "bg_btn": "#fff",
-        "color_btn_hover": "#fff",
+        "color_btn": "#222222",
+        "bg_btn": "#ffffff",
+        "color_btn_hover": "#ffffff",
         "url_banner": "shopify:\/\/collections\/all"
       }
     },
@@ -375,13 +375,13 @@
         "title_bottom2": "-16% SAVE",
         "btn_banner2": "SHOP NOW",
         "url_banner2": "shopify:\/\/collections\/all",
-        "color_title_banner": "#222",
-        "color_title_bottom": "#222",
-        "color_btn": "#000",
-        "border_btn": "#000",
-        "color_btn_hover": "#fff",
-        "bg_btn": "#000",
-        "bg_btn_hover": "#000",
+        "color_title_banner": "#222222",
+        "color_title_bottom": "#222222",
+        "color_btn": "#000000",
+        "border_btn": "#000000",
+        "color_btn_hover": "#ffffff",
+        "bg_btn": "#000000",
+        "bg_btn_hover": "#000000",
         "margin_top": "",
         "margin_bottom": ""
       }
@@ -395,14 +395,14 @@
         "ena_margin_top": true,
         "select_pos": "left",
         "title_banner": "The Benefits of Having Plants in Your Home",
-        "color_title": "#fff",
+        "color_title": "#ffffff",
         "content_banner": "Indoor plants don’t just look good – they can make us feel good, too. Studies have shown indoor plants...",
-        "color_content_banner": "#fff",
+        "color_content_banner": "#ffffff",
         "button_banner": "SHOP NOW",
-        "color_btn": "#F3A395",
-        "bg_btn": "#fff",
-        "color_btn_hover": "#fff",
-        "bg_btn_hover": "#F3A395",
+        "color_btn": "#f3a395",
+        "bg_btn": "#ffffff",
+        "color_btn_hover": "#ffffff",
+        "bg_btn_hover": "#f3a395",
         "url_button": "shopify:\/\/collections\/all"
       }
     },
@@ -411,9 +411,9 @@
       "settings": {
         "enable-img_title": true,
         "title_banner": "Instagram Shop",
-        "color_title_banner": "#222",
+        "color_title_banner": "#222222",
         "sub_title_banner": "Create Shoppable Instagram Galleries by tagging products on Instagram images & embed it anywhere. Create multiple Instagram galleries.",
-        "color_sub_title_banner": "#CEA384",
+        "color_sub_title_banner": "#cea384",
         "margin_top": "",
         "margin_bottom": ""
       }
@@ -427,24 +427,24 @@
         "margin_bottom": "",
         "title_banner": "Spring Collection",
         "sub_banner": "Discover this week the latest pieces from our latest collection Spring Summer 2021 Woman",
-        "color_title": "#000",
-        "color_sub1": "#000",
+        "color_title": "#000000",
+        "color_sub1": "#000000",
         "btn_banner1": "Outdoor Plants",
         "color_btn1": "#7cb538",
-        "bg_btn1": "#fff",
-        "color_btn_hover1": "#fff",
+        "bg_btn1": "#ffffff",
+        "color_btn_hover1": "#ffffff",
         "bg_btn_hover1": "#7cb538",
         "url_banner1": "shopify:\/\/collections\/all",
         "btn_banner2": "House Plants",
         "color_btn2": "#7cb538",
-        "bg_btn2": "#fff",
-        "color_btn_hover2": "#fff",
+        "bg_btn2": "#ffffff",
+        "color_btn_hover2": "#ffffff",
         "bg_btn_hover2": "#7cb538",
         "url_banner2": "shopify:\/\/collections\/all",
         "btn_banner3": "Pots & Planters",
         "color_btn3": "#7cb538",
-        "bg_btn3": "#fff",
-        "color_btn_hover3": "#fff",
+        "bg_btn3": "#ffffff",
+        "color_btn_hover3": "#ffffff",
         "bg_btn_hover3": "#7cb538",
         "url_banner3": "shopify:\/\/collections\/all"
       }

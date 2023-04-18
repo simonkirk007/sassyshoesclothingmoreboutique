@@ -79,6 +79,41 @@
       flex-direction: column;
   }    
 
+.cus-section-banner-v11 .banner-item:hover img {
+    transform: scale(1);
+    transition: all .8s linear;
+}
+.cus-section-banner-v11 .banner-item.end img {
+    width: 75% !important;
+}
+
+.cus-section-banner-v11 .banner-item.end a.box-img {
+    text-align: right;
+}
+.cus-section-banner-v11 .banner-item .content .sub-title {
+    font-size: 20px;
+}
+
+
+footer.footer_v2 {
+    background-image: url('https://cdn.shopify.com/s/files/1/0678/7625/8096/files/Rectangle_30.png?v=1681813477') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer_v2 .top-footer, .footer_v2 .copyright {
+    background: transparent !important;
+    border: unset;
+}
+
+.footer_v2 .top-footer .border-ft {
+    border: unset;
+}
+
+.footer_v2 .copyright .text-md-right {
+    display: none;
+}
 
 
 .section-slideshow-v1 .info-sideh1 .button-main2 {
