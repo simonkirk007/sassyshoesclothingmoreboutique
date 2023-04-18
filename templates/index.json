@@ -163,6 +163,7 @@
     },
     "1632133578362cb5b3": {
       "type": "section-banner-v6",
+      "disabled": true,
       "settings": {
         "bg_section_color": "rgba(0,0,0,0)",
         "title_top1": "Online store",
