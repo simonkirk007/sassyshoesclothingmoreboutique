@@ -1520,7 +1520,7 @@ jQuery(document).ready(function($) {
       infinite: true,
       speed: 300,
       autoplay:true,
-      slidesToShow: 4,
+      slidesToShow: 3,
       slidesToScroll: 1,
       
       prevArrow:'<button type="button" class="prev-slide"><i class="fa fa-angle-left"></i></button>',

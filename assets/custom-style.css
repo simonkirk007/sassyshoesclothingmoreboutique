@@ -10,7 +10,7 @@
 
 .section-slideshow-v1 .info-sideh1 .box-content-center .box-title1 .title-small {
     font-size: 24px;
-    z-index: ;
+    z-index: 9;
     display: inline-block;
     background-color: #B13495;
     line-height: 24px;
@@ -18,12 +18,29 @@
     margin-bottom: 30px !important;
   }
 
+
   .section-slideshow-v1 .info-sideh1 .box-content-center .box-title2 .title-small {
     font-size: 18px;
   }
-
-
-
+  .section-service-v1 {
+    background-image: url('https://cdn.shopify.com/s/files/1/0678/7625/8096/files/Rectangle_15.png?v=1681807603');
+    background-size: cover;
+    background-position: center;
+  }
+  .section-service-v1 .itemtservice .box-service {
+    display: flex;
+    align-items: center;
+  }
+  .section-service-v1 .itemtservice .box-service .number img {
+    width: 65px;
+  }
+  .section-service-v1 .itemtservice .box-service .number {
+    padding: 0;
+    margin-right: 15px;
+  }
+  .section-service-v1 .itemtservice .box-service .info .title {
+    text-align: left;
+  }
 
   
 .section-slideshow-v1 .info-sideh1 .button-main2 {
