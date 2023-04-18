@@ -90,6 +90,9 @@
 .cus-section-banner-v11 .banner-item.end a.box-img {
     text-align: right;
 }
+.cus-section-banner-v11 .banner-item .content .sub-title {
+    font-size: 20px;
+}
 
 .section-slideshow-v1 .info-sideh1 .button-main2 {
     background-color: #b13495;
