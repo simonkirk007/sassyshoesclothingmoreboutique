@@ -201,6 +201,7 @@
     },
     "16321336185da811f7": {
       "type": "section-banner-v2",
+      "disabled": true,
       "settings": {
         "select_pos": "left",
         "title_banner": "BEAUTY  YOUR HOME",
@@ -224,7 +225,7 @@
         "color_title": "#222222",
         "sub_title": "Best Seller Product This Week!",
         "color_sub_title": "#666666",
-        "select_collection": "new",
+        "select_collection": "frontpage",
         "products_limit": 8,
         "margin_top": "",
         "margin_bottom": ""
