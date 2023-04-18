@@ -260,38 +260,43 @@
         "template--18796696600880__72748c9c-e9b0-4034-b422-b497ab974073-1681856180b0060828-0": {
           "type": "brand",
           "settings": {
-            "brand_img": "shopify:\/\/shop_images\/3e1989bf21e4a616630e9cf674f50a55_1.png",
-            "brand_url": ""
+            "brand_img": "shopify:\/\/shop_images\/KP.png",
+            "brand_url": "#"
           }
         },
         "template--18796696600880__72748c9c-e9b0-4034-b422-b497ab974073-1681856180b0060828-1": {
           "type": "brand",
           "settings": {
-            "brand_url": "shopify:\/\/collections\/all"
+            "brand_img": "shopify:\/\/shop_images\/Rectangle_46.png",
+            "brand_url": "#"
           }
         },
         "template--18796696600880__72748c9c-e9b0-4034-b422-b497ab974073-1681856180b0060828-2": {
           "type": "brand",
           "settings": {
-            "brand_url": "shopify:\/\/collections\/all"
+            "brand_img": "shopify:\/\/shop_images\/Rectangle_48.png",
+            "brand_url": "#"
           }
         },
         "template--18796696600880__72748c9c-e9b0-4034-b422-b497ab974073-1681856180b0060828-3": {
           "type": "brand",
           "settings": {
-            "brand_url": "shopify:\/\/collections\/all"
+            "brand_img": "shopify:\/\/shop_images\/Rectangle_43.png",
+            "brand_url": "#"
           }
         },
         "template--18796696600880__72748c9c-e9b0-4034-b422-b497ab974073-1681856180b0060828-4": {
           "type": "brand",
           "settings": {
-            "brand_url": "shopify:\/\/collections\/all"
+            "brand_img": "shopify:\/\/shop_images\/Rectangle_44.png",
+            "brand_url": "#"
           }
         },
         "template--18796696600880__72748c9c-e9b0-4034-b422-b497ab974073-1681856180b0060828-5": {
           "type": "brand",
           "settings": {
-            "brand_url": "shopify:\/\/collections\/all"
+            "brand_img": "shopify:\/\/shop_images\/Rectangle_49.png",
+            "brand_url": "#"
           }
         }
       },
