@@ -52,7 +52,9 @@
   visibility: visible;
   transform: translateY(0%) scale(1);
   }
-  
+  .cus-banner-v11-2 .banner-item::after {
+  display: none;
+}
 
   .cus-section-banner-v11 .banner-item .content::after,
   .cus-banner-v11-2 .banner-item .content::after
@@ -67,7 +69,8 @@
   .cus-section-banner-v11 .banner-ver {
       height: 100% !important;
   }
-  .cus-section-banner-v11 .banner-item .content {
+  .cus-section-banner-v11 .banner-item .content,
+  .cus-banner-v11-2 .banner-item .content {
   position: unset;
 }
 
