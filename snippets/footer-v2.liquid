@@ -105,8 +105,8 @@
   {% if settings.enable_fv2_bottom %}
   <div class="copyright">
     <div class="container container-v1">
-      <div class="row align-items-center">
-        <div class="col-lg-6 col-md-6  {% if settings.enable_rtl_mode %} text-lg-right text-md-right {% else %}text-lg-left text-md-left{% endif %}">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-6 col-md-6  {% if settings.enable_rtl_mode %} text-lg-center text-lg-center {% else %}text-lg-center text-lg-center{% endif %}">
           {% if settings.fv2_bottom_copyright != blank %}
           <p class="text-copyright mb-0">{{settings.fv2_bottom_copyright}}</p>
           {% else %}
