@@ -220,6 +220,7 @@
     },
     "1632381930c8243c59": {
       "type": "section-product-v3",
+      "disabled": true,
       "settings": {
         "title_heading": "Best Seller",
         "color_title": "#222222",
@@ -233,6 +234,7 @@
     },
     "1632381903312b7c99": {
       "type": "section-instagram-v3",
+      "disabled": true,
       "settings": {
         "title_content": "Instagram",
         "link_insta": "#nameo",
@@ -246,6 +248,7 @@
     },
     "7ca4c4b7-ca95-4cb0-baa0-46384985be88": {
       "type": "section-banner-v1",
+      "disabled": true,
       "settings": {
         "url_banner1": "shopify:\/\/collections\/all",
         "title_sub_banner1": "Latest Collection",
@@ -261,6 +264,7 @@
     },
     "539547b8-e553-46cb-b850-40ec6ff10db4": {
       "type": "section-banner-v10",
+      "disabled": true,
       "settings": {
         "sub_title": "2021",
         "color_sub": "#000000",
@@ -279,6 +283,7 @@
     },
     "4bc279e8-4933-45cb-9a39-6c8f476ff38c": {
       "type": "section-banner-v11",
+      "disabled": true,
       "settings": {
         "margin_top": "",
         "margin_bottom": "",
@@ -302,6 +307,7 @@
     },
     "c81ebd1e-56b7-437f-b198-eeb115c41745": {
       "type": "section-banner-v2",
+      "disabled": true,
       "settings": {
         "select_pos": "left",
         "title_banner": "LIVE YOUR HAPPY LIFE!",
@@ -320,6 +326,7 @@
     },
     "1bfb6567-2257-40f3-b6fe-0c7176c90c8b": {
       "type": "section-banner-v3",
+      "disabled": true,
       "settings": {
         "margin_top": "",
         "margin_bottom": "",
@@ -341,6 +348,7 @@
     },
     "01c148fa-8223-4d1e-8046-c5bb38008bf2": {
       "type": "section-banner-v4",
+      "disabled": true,
       "settings": {
         "margin_top": "",
         "margin_bottom": "",
@@ -370,6 +378,7 @@
     },
     "5fefb471-9bf7-4a96-89ee-c7f2d9869114": {
       "type": "section-banner-v5",
+      "disabled": true,
       "settings": {
         "ena_padding_top": false,
         "ena_container": false,
@@ -390,6 +399,7 @@
     },
     "588ce0fa-e9a4-4882-ba1a-52efbe382d5d": {
       "type": "section-banner-v6",
+      "disabled": true,
       "settings": {
         "bg_section_color": "#e9e9e9",
         "title_top1": "Best sellers guide",
@@ -415,6 +425,7 @@
     },
     "5798b115-e67c-4ede-bb6f-9d027f26d509": {
       "type": "section-banner-v7",
+      "disabled": true,
       "settings": {
         "margin_top": "",
         "margin_bottom": "",
@@ -435,6 +446,7 @@
     },
     "20d660f0-87b8-42cb-87e9-69fcb906f54f": {
       "type": "section-banner-v8",
+      "disabled": true,
       "settings": {
         "enable-img_title": true,
         "title_banner": "Instagram Shop",
@@ -447,6 +459,7 @@
     },
     "621c6f68-4ed6-4224-81f7-3f720ae87061": {
       "type": "section-banner-v9",
+      "disabled": true,
       "settings": {
         "enable_container": false,
         "ena_margin_top": false,
