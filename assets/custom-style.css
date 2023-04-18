@@ -115,6 +115,10 @@ footer.footer_v2 {
     display: none;
 }
 
+#header.header-v2-h2 {
+    padding: 5px 0 5px;
+}
+
 
 .section-slideshow-v1 .info-sideh1 .button-main2 {
     background-color: #b13495;
@@ -137,4 +141,4 @@ footer.footer_v2 {
     top: 0;
   }
 
-  
+
