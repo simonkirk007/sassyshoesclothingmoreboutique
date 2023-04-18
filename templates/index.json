@@ -249,7 +249,7 @@
         "sub_title": "Check Out Our Best Sellers + Latest Products",
         "color_sub_title": "#666666",
         "select_collection": "frontpage",
-        "products_limit": 8,
+        "products_limit": 3,
         "margin_top": "",
         "margin_bottom": ""
       }
