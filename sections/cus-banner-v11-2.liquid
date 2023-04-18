@@ -43,13 +43,6 @@
         <div class="col-lg-4 col-md-4 col-12 col-sm-12">
           <div class="banner-ver">
             <div class="banner-item">
-              <a href="{{section.settings.url_button_banner3}}" class="box-img d-block">
-                {% if section.settings.banner_img3 != blank %}
-                <img data-src="{{section.settings.banner_img3 | img_url: 'master'}}" class="lazyload img-fluid w-100" alt="_img">
-                {% else %}
-                <img data-src="//via.placeholder.com/720x600" class="lazyload img-fluid w-100" alt="_img">
-                {% endif %}
-              </a>
               <div class="content">
                 {% if section.settings.sub_title3 != blank %}
                 <h3 class="sub-title" style="color: {{section.settings.color_subtitle}}">{{section.settings.sub_title3}}</h3>
