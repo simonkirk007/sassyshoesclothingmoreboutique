@@ -155,7 +155,7 @@
         "title_banner3": "Your Title Here",
         "button_banner3": "Add To Cart",
         "url_button_banner3": "shopify:\/\/collections\/all",
-        "color_subtitle": "#000",
+        "color_subtitle": "#000000",
         "color_title_banner": "#111111",
         "color_url": "#b13495",
         "color_url_hover": "#b13495"
@@ -189,10 +189,10 @@
     "1632381883ccbe2cd0": {
       "type": "section-product-v1",
       "settings": {
-        "title_heading": "Hot Deal",
+        "title_heading": "Featured Products",
         "color_title": "#222222",
-        "sub-title1": "Don't Miss Today's Featured Deals",
-        "select_collection": "new1",
+        "sub-title1": "Check Out Our Featured + Latest Products",
+        "select_collection": "frontpage",
         "products_limit": 4,
         "margin_top": "",
         "margin_bottom": ""
