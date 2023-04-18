@@ -79,7 +79,17 @@
       flex-direction: column;
   }    
 
+.cus-section-banner-v11 .banner-item:hover img {
+    transform: scale(1);
+    transition: all .8s linear;
+}
+.cus-section-banner-v11 .banner-item.end img {
+    width: 75% !important;
+}
 
+.cus-section-banner-v11 .banner-item.end a.box-img {
+    text-align: right;
+}
 
 .section-slideshow-v1 .info-sideh1 .button-main2 {
     background-color: #b13495;
