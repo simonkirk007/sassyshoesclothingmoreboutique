@@ -92,10 +92,12 @@
     .section-banner-v11 .banner-item .content .btn-{{ section.id }}:hover {
       color: {{section.settings.color_url_hover}};
     }
-    .cus-section-banner-v11 .banner-item .content {
+    .cus-section-banner-v11 .banner-item .content,
+    .cus-section-banner-v11 .banner-item:hover .content {
     visibility: visible;
-    transform: translateY(-50%) scale(1);
+    transform: translateY(0%) scale(1);
     }
+    
 
     .cus-section-banner-v11 .banner-item .content::after {
         display: none;
