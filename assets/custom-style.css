@@ -46,13 +46,17 @@
 
   
   .cus-section-banner-v11 .banner-item .content,
-  .cus-section-banner-v11 .banner-item:hover .content {
+  .cus-section-banner-v11 .banner-item:hover .content,
+  .cus-banner-v11-2 .banner-item .content,
+  .cus-banner-v11-2 .banner-item:hover .content {
   visibility: visible;
   transform: translateY(0%) scale(1);
   }
   
 
-  .cus-section-banner-v11 .banner-item .content::after {
+  .cus-section-banner-v11 .banner-item .content::after,
+  .cus-banner-v11-2 .banner-item .content::after
+  {
       display: none;
   }
 
