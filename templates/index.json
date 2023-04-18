@@ -1,1 +1,156 @@
-{"sections":{"163213334288f9da0e":{"type":"section-slideshow-v1","blocks":{"163213334288f9da0e-0":{"type":"slideshow","settings":{"select_position_content":"left","select_textalign_content":"left","block_title_top1":"Style Destination","color_block_title_top1":"#111111","effect_title1":"bounce","block_title_top":"Modern Furniture","color_block_title_top":"#000000","effect_title":"bounce","block_title_top2":"With modern and luxurious design, we always give ourour<br> customers the best experience","color_block_title_top2":"#111111","effect_title2":"bounce","block_buton":"Shop now","color_block_button":"#000000","color_hover_button":"#111111","color_hover_text":"#ffffff","block_url":"shopify:\/\/collections\/all","effect_title3":"bounce","ena_slide_video":false,"url_ytb_video":"","block_banerimage":"shopify:\/\/shop_images\/slide4.jpg"}},"163213334288f9da0e-1":{"type":"slideshow","settings":{"select_position_content":"left","select_textalign_content":"left","block_title_top1":"Style Destination","color_block_title_top1":"#e5e5e5","effect_title1":"bounce","block_title_top":"natural materials","color_block_title_top":"#ffffff","effect_title":"bounce","block_title_top2":"We use natural materials that are environmentally friendly","color_block_title_top2":"#e5e5e5","effect_title2":"bounce","block_buton":"Shop now","color_block_button":"#ffffff","color_hover_button":"#ffffff","color_hover_text":"#000000","block_url":"shopify:\/\/collections\/all","effect_title3":"bounce","ena_slide_video":false,"url_ytb_video":"","block_banerimage":"shopify:\/\/shop_images\/slide5.jpg"}}},"block_order":["163213334288f9da0e-0","163213334288f9da0e-1"],"settings":{"margin_top":"","margin_bottom":""}},"1632133578362cb5b3":{"type":"section-banner-v6","settings":{"bg_section_color":"rgba(0,0,0,0)","img_banner1":"shopify:\/\/shop_images\/banner7.jpg","title_top1":"Online store","title1":"Meet Woo excellence","title_bottom1":"The perfect place for any modern home and furniture store. There are many different designs for you to choose from. Make your home space more beautiful .Small living space becomes spacious, comfortable and extremely convenient","btn_banner1":"SHOP NOW","url_banner1":"shopify:\/\/collections\/all","img_banner2":"shopify:\/\/shop_images\/banner6.jpg","title_top2":"Handmade & new","title2":"Experience the items","title_bottom2":"The perfect place for any modern home and furniture store. There are many different designs for you to choose from. Make your home space more beautiful .Small living space becomes spacious, comfortable and extremely convenient","btn_banner2":"SHOP NOW","url_banner2":"shopify:\/\/collections\/all","color_title_banner":"#111111","color_title_bottom":"#222222","color_btn":"#111111","border_btn":"#000000","color_btn_hover":"#ffffff","bg_btn":"#ffffff","bg_btn_hover":"#000000","margin_top":"","margin_bottom":""}},"1632381883ccbe2cd0":{"type":"section-product-v1","settings":{"title_heading":"Hot Deal","color_title":"#222","sub-title1":"Don't Miss Today's Featured Deals","select_collection":"new1","products_limit":4,"margin_top":"","margin_bottom":""}},"16321336185da811f7":{"type":"section-banner-v2","settings":{"select_pos":"left","img_banner1":"shopify:\/\/shop_images\/banner8.jpg","title_banner":"BEAUTY  YOUR HOME","color_title":"#222222","sub_title":"Decorate your home now. Make your homehome<br> look more beautiful","color_sub_title":"#222222","button_1":"SHOP NOW","color_btn":"#ffffff","bg_btn":"#000000","color_btn_hover":"#000000","bg_btn_hover":"#ffffff","url_button1":"shopify:\/\/collections\/all","margin_top":"","margin_bottom":""}},"1632381930c8243c59":{"type":"section-product-v3","settings":{"title_heading":"Best Seller","color_title":"#222","sub_title":"Best Seller Product This Week!","color_sub_title":"#666666","select_collection":"new","products_limit":8,"margin_top":"","margin_bottom":""}},"1632381903312b7c99":{"type":"section-instagram-v3","settings":{"title_content":"Instagram","link_insta":"#nameo","ins_userid":"","ins_access_token":"3672948962.0f64772.430edb7f711e4665b59777c54d1ed9ce","ins_limit_number":"6","item_icon":"fa fa-instagram","margin_top":"","margin_bottom":""}}},"order":["163213334288f9da0e","1632133578362cb5b3","1632381883ccbe2cd0","16321336185da811f7","1632381930c8243c59","1632381903312b7c99"]}
+{
+  "sections": {
+    "163213334288f9da0e": {
+      "type": "section-slideshow-v1",
+      "blocks": {
+        "163213334288f9da0e-0": {
+          "type": "slideshow",
+          "settings": {
+            "select_position_content": "left",
+            "select_textalign_content": "left",
+            "block_title_top1": "Welcome To OUR WEBSITE",
+            "color_block_title_top1": "#111111",
+            "effect_title1": "bounce",
+            "block_title_top": "Sassy’s shoes  & boutique",
+            "color_block_title_top": "#000000",
+            "effect_title": "bounce",
+            "block_title_top2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            "color_block_title_top2": "#111111",
+            "effect_title2": "bounce",
+            "block_buton": "Shop now",
+            "color_block_button": "#000000",
+            "color_hover_button": "#111111",
+            "color_hover_text": "#ffffff",
+            "block_url": "shopify:\/\/collections\/all",
+            "effect_title3": "bounce",
+            "ena_slide_video": false,
+            "url_ytb_video": "",
+            "block_banerimage": "shopify:\/\/shop_images\/BANNER_3.png",
+            "block_banerimage_mb": "shopify:\/\/shop_images\/BANNER_3_71802595-4a43-437b-8fde-cd67c6225f2c.png"
+          }
+        },
+        "163213334288f9da0e-1": {
+          "type": "slideshow",
+          "settings": {
+            "select_position_content": "left",
+            "select_textalign_content": "left",
+            "block_title_top1": "Style Destination",
+            "color_block_title_top1": "#e5e5e5",
+            "effect_title1": "bounce",
+            "block_title_top": "natural materials",
+            "color_block_title_top": "#ffffff",
+            "effect_title": "bounce",
+            "block_title_top2": "We use natural materials that are environmentally friendly",
+            "color_block_title_top2": "#e5e5e5",
+            "effect_title2": "bounce",
+            "block_buton": "Shop now",
+            "color_block_button": "#ffffff",
+            "color_hover_button": "#ffffff",
+            "color_hover_text": "#000000",
+            "block_url": "shopify:\/\/collections\/all",
+            "effect_title3": "bounce",
+            "ena_slide_video": false,
+            "url_ytb_video": ""
+          }
+        }
+      },
+      "block_order": [
+        "163213334288f9da0e-0",
+        "163213334288f9da0e-1"
+      ],
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "1632133578362cb5b3": {
+      "type": "section-banner-v6",
+      "settings": {
+        "bg_section_color": "rgba(0,0,0,0)",
+        "title_top1": "Online store",
+        "title1": "Meet Woo excellence",
+        "title_bottom1": "The perfect place for any modern home and furniture store. There are many different designs for you to choose from. Make your home space more beautiful .Small living space becomes spacious, comfortable and extremely convenient",
+        "btn_banner1": "SHOP NOW",
+        "url_banner1": "shopify:\/\/collections\/all",
+        "title_top2": "Handmade & new",
+        "title2": "Experience the items",
+        "title_bottom2": "The perfect place for any modern home and furniture store. There are many different designs for you to choose from. Make your home space more beautiful .Small living space becomes spacious, comfortable and extremely convenient",
+        "btn_banner2": "SHOP NOW",
+        "url_banner2": "shopify:\/\/collections\/all",
+        "color_title_banner": "#111111",
+        "color_title_bottom": "#222222",
+        "color_btn": "#111111",
+        "border_btn": "#000000",
+        "color_btn_hover": "#ffffff",
+        "bg_btn": "#ffffff",
+        "bg_btn_hover": "#000000",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "1632381883ccbe2cd0": {
+      "type": "section-product-v1",
+      "settings": {
+        "title_heading": "Hot Deal",
+        "color_title": "#222222",
+        "sub-title1": "Don't Miss Today's Featured Deals",
+        "select_collection": "new1",
+        "products_limit": 4,
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "16321336185da811f7": {
+      "type": "section-banner-v2",
+      "settings": {
+        "select_pos": "left",
+        "title_banner": "BEAUTY  YOUR HOME",
+        "color_title": "#222222",
+        "sub_title": "Decorate your home now. Make your homehome<br> look more beautiful",
+        "color_sub_title": "#222222",
+        "button_1": "SHOP NOW",
+        "color_btn": "#ffffff",
+        "bg_btn": "#000000",
+        "color_btn_hover": "#000000",
+        "bg_btn_hover": "#ffffff",
+        "url_button1": "shopify:\/\/collections\/all",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "1632381930c8243c59": {
+      "type": "section-product-v3",
+      "settings": {
+        "title_heading": "Best Seller",
+        "color_title": "#222222",
+        "sub_title": "Best Seller Product This Week!",
+        "color_sub_title": "#666666",
+        "select_collection": "new",
+        "products_limit": 8,
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "1632381903312b7c99": {
+      "type": "section-instagram-v3",
+      "settings": {
+        "title_content": "Instagram",
+        "link_insta": "#nameo",
+        "ins_userid": "",
+        "ins_access_token": "3672948962.0f64772.430edb7f711e4665b59777c54d1ed9ce",
+        "ins_limit_number": "6",
+        "item_icon": "fa fa-instagram",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    }
+  },
+  "order": [
+    "163213334288f9da0e",
+    "1632133578362cb5b3",
+    "1632381883ccbe2cd0",
+    "16321336185da811f7",
+    "1632381930c8243c59",
+    "1632381903312b7c99"
+  ]
+}
