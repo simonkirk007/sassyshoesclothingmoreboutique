@@ -219,3 +219,6 @@ footer.footer_v2 {
     top: 0;
     left: 0;
 }
+#header .menu ul .nav-item .nav-link {
+  padding: 0;
+}
