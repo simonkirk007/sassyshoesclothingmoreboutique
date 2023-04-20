@@ -2,8 +2,28 @@
   "sections": {
     "banner_about_v3": {
       "type": "banner-about-v3",
+      "disabled": true,
       "settings": {
         "bg_breadcrumb": "shopify:\/\/shop_images\/Group_1000001775.png"
+      }
+    },
+    "9a94028e-ab48-4fed-9c75-a432a8855d7e": {
+      "type": "section-banner-v2",
+      "settings": {
+        "select_pos": "center",
+        "img_banner1": "shopify:\/\/shop_images\/Group_1000001775.png",
+        "title_banner": "About Us",
+        "color_title": "#ffffff",
+        "sub_title": "",
+        "color_sub_title": "#222",
+        "button_1": "",
+        "color_btn": "#fff",
+        "bg_btn": "#000",
+        "color_btn_hover": "#000",
+        "bg_btn_hover": "#fff",
+        "url_button1": "",
+        "margin_top": "",
+        "margin_bottom": ""
       }
     },
     "about_introduce_v3": {
@@ -145,6 +165,7 @@
   },
   "order": [
     "banner_about_v3",
+    "9a94028e-ab48-4fed-9c75-a432a8855d7e",
     "about_introduce_v3",
     "our_teams_v3",
     "rich_text_v3",
